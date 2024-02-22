@@ -1,10 +1,26 @@
 .flex-container {         /*Links in the Home Page is stored in the flexbox*/
     display: flex;
-    justify-content: space-around;
+    justify-content: center; 
     align-items: center;
     flex-grow: 1;
     
 }
+
+.tab {
+    padding: 10px; 
+    border: 1px solid grey; 
+    text-decoration: none; 
+    color: black; 
+    background-color: white;
+}
+
+/* Add hover effect  */
+.tab:hover {
+    background-color: grey; 
+    color: white;
+}
+
+
 .link {                   /*Styling for links in the Home Page*/
     padding: 2%;
     margin: 1%;
@@ -22,20 +38,32 @@
 .title{
     color:black;
     font-size: 350%;
-    font-weight: bold;      /* -webkit-text-stroke: 1.5px grey; if I need it*/
+    font-weight: bold;   
     padding-bottom: 3%;
     text-align: center;
     font-weight: bold;
    
-   
+}
+.title2 {
+    color:black;
+    font-size: 350%;
+    font-weight: bold;      
+    padding-bottom: 3%;
+    text-align: center;
+    font-weight: bold;
 }
 .body1 {
     background-image: url('fariytailbackgroundimg.jpeg');
     background-size:cover; 
     background-position: center;
     background-repeat: no-repeat; 
- 
-   
+}
+.body2 {
+    background-image: url('wp5995224.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    
 }
 .img1{
     border-style: solid;
@@ -53,8 +81,9 @@
     width: 45%; 
     margin:0 auto;
     padding:5%;
-
 }
+
+
 .slideshow-container {
     position: relative;
     max-width: 1000px;
@@ -71,7 +100,6 @@ img {
     height: auto;
 }
 
-/* Style the dots */
 .dot {
     height: 15px;
     width: 15px;
@@ -81,7 +109,80 @@ img {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
-
 .active {
-    background-color: #0b0202;
+    background-color: #0b0202;    /*end of anime/where to watch part*/
+}
+
+.character {
+    margin-bottom: 20px;
+}
+
+.character img {
+    width: 200px;
+    height: auto;
+}
+
+.character h2 {
+    color: blue;
+}
+
+.character p {
+    font-style: italic;
+}
+
+.body3 {
+    background-image: url('wallpaper.jpeg');
+    background-size:cover; 
+    background-position: center;
+    background-repeat:repeat; 
+}
+
+.Emailwallpaper{
+    background-image: url('wallpaper.png');
+    background-size:cover; 
+    background-position: center;
+    background-repeat:repeat; 
+}
+
+.div2 {
+    background-color: white;
+    border-style: solid; 
+    border-width: medium;
+    border-color: grey;
+    width: 40%; 
+    margin:0 auto;
+    padding:5%;
+   
+}
+
+
+.g-recaptcha {
+    border-style: solid;
+    height: 60px;
+    border-width: medium;
+    border-color: rgb(170, 170, 195);
+}
+.button1, .button2 {
+    background-image: linear-gradient(to right, grey ,black);
+    color: white;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="dob"],
+input[type="tel"],
+input[type="date"],
+input[type="zipcode"],
+select {
+    display: inline-block;
+
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+  
+}
+.title1 {
+    color: black
 }
