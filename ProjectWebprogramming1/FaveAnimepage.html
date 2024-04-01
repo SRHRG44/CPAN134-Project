@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaveAnimepage</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<nav>
+    <div class="flex-container">
+        <a class="tab" href="">(Sergio)Main Page</a>
+        <a class="tab" href="FaveAnimepage.html">Recommendation 1</a>
+        <a class="tab" href="">(Sergio)Recommendation 2</a>
+        <a class="tab" href="">(Eddie)Recommendation 3</a>
+        <a class="tab" href="WhereToWatchpage5.html">Where to watch</a>
+        <a class="tab" href="">(eddie)Sources Or Merchandise</a>
+    </div>
+</nav>
+
+    <body class="body1">
+
+
+        <div class="div1">
+            <header class="title">My Recommendation Page 1</header>
+
+            <audio autoplay>
+                <source src="Fairy tail-Theme song (1).mp3" type="audio/mpeg">
+            </audio>
+           
+            <div>
+                <h1>FairyTail</h1>
+            </div>
+            <div>
+                <img class="img1" src="Fairy-Tail-100-Year-Quest.avif" alt="Image1" width="600" height="auto">
+            </div>
+        
+            <p class="para1">"Fairy Tail" is a Japanese manga and anime series created by Hiro Mashima. It follows the adventures of Natsu Dragneel, a fiery and loyal mage, and his friends who are members of the Fairy Tail guild, a powerful group of wizards known for their camaraderie and strength. Set in the magical land of Fiore, the series explores themes of friendship, loyalty, and overcoming adversity.
+                The secret to the enduring popularity of "Fairy Tail" lies in its richly developed characters, each with their own unique personalities, powers, and backstories. From the determined Lucy Heartfilia to the enigmatic Gray Fullbuster, the diverse cast of characters adds depth and dimension to the story.
+                At its core, "Fairy Tail" is about the bonds of friendship and the power of teamwork. As Natsu and his friends embark on daring quests, face formidable enemies, and confront their own inner demons, they learn valuable lessons about trust, perseverance, and the true meaning of strength.
+                The series is also known for its action-packed battles, breathtaking magic spells, and heartwarming moments of triumph and sacrifice. From epic showdowns against dark guilds to heartwarming reunions between long-lost friends, "Fairy Tail" weaves a tapestry of adventure and emotion that captivates audiences around the world.
+                Ultimately, the secret of "Fairy Tail" lies in its ability to transport viewers to a world of magic and wonder, where anything is possible with courage, determination, and the power of friendship.
+            </p>  
+
+            <div class="slideshow- container">
+                <div class="slide fade">
+                    <img src="NatsuHappyateamushroom.jpeg" alt="Slide 1"style="width:100%" height="50%">
+                </div>
+                <div class="slide fade">
+                    <img src="fairy-tail-05.png.webp" alt="Slide2" style="width:95%" height="10%">
+                </div>
+                <div class="slide fade">
+                    <img src="mennnnn.jpeg" alt="Slide2" style="width:95%" height="10%">
+                </div>
+               
+            </div>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+            <script src="script.js"></script>
+
+            <script>
+                let slideIndex = 0;
+                showSlides();
+                function showSlides() {
+                    let slides = document.getElementsByClassName("slide");
+                    let dots = document.getElementsByClassName("dot");
+                    for (let i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}
+                    for (let i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+            </script>
+            
+            <p class="para1">I have a deep affection for "Fairy Tail," a captivating anime series renowned for its extensive episode count, totaling approximately 328 episodes. While the main storylines hold their own allure, I find myself particularly drawn to the fillers within the series. These episodes, characterized by their lighthearted and chaotic nature, showcase the endearing camaraderie and dynamics among the guild members. In these moments of respite from the main plot, the characters shine brightly as they embark on misadventures, engage in humorous banter, and strengthen their bonds of friendship. It's these fillers, with their moments of joy and laughter, that resonate deeply with me and remind me of the warmth and camaraderie that define the essence of "Fairy Tail."</p>
+
+            <div class="flex-container">
+                <a href="Characterpage1.html" class="tab">Next Page</a>
+            </div>
+
+        </div>
+        
+
+    </body>
+</html>

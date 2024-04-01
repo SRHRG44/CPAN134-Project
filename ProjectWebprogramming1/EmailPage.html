@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body class="Emailwallpaper">
+        <div style="display: flex; justify-content: left"; class="div2">
+            <label>
+            <form action="/submit-form" method="post">
+                <h1 class="title1" style="text-align: center;">Student Registration Form</h1>
+
+                First Name:&nbsp;&nbsp;<input type="text" placeholder="Enter First Name" Name="FName"><br><br>
+                Last Name:&nbsp;&nbsp;<input type="text" placeholder="Enter Last Name" Name="FName"><br><br>
+
+                <label for="gender">Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" id="male" name=gender value="male">Male
+                <input type="radio" id="Female" name="gender" value="Female">Female
+                <input type="radio" id="Other"  name="gender" value="Other">Other<br><br>
+
+                Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Your Age" name="age"><br><br>
+                Date of Birth:<input type="date" id="dob" name="dob" placeholder="mm-dd-yyyy"><br><br>
+                Email Address:<input type="email" id="email" name="email" placeholder="Enter Your Email"><br><br>
+                Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="Password" name="password" maxlength="10" placeholder="Enter Password"><br><br>
+                Confirm Password:<input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password"><br><br>
+
+                Phone Number:<input type="tel" id="phone" name="phone" placeholder="Enter Phone Number"><br><br>
+                Address:<input type="text" id="address" name="address" placeholder="Enter Address"><br><br>
+        
+                State:
+                <select name="Province">
+                    <optgroup label="Province" placeholder="Select Your State">
+                        <option value="Priovince"> --Select Your State-- </option><br>
+                        <option value="Province1">Ontario</option><br>
+                        <option value="Province2">Nova Scotia</option>
+                        <option value="Province3">Quebec</option>
+                        <option value="province4">Manitoba</option>
+                        <option value="Province5">New Brunswick</option>
+                        <option value="province6">Saskatchewan</option>
+                        <option value="provinces">Prince and prince island</option>
+                    </select><br><br>
+
+                Zip Code:<Input type="zipcode" id="zipcode" name="zipcode" placeholder="Enter Your Zip Code"><br><br>
+            
+                <script src="https://www.google.com/recaptcha/admin/site/695066096/setup#:~:text=6Lfw3W0pAAAAAN3NDeHPfWbP7wF0Rdxg1JVERJzQ"></script>
+            
+                <button class="button1" href="MainPage.html"></a>REGISTER</button>&nbsp;&nbsp;&nbsp;<button class="button2">RESET</button>
+
+              
+
+            </form>
+    </body>
+</html>
