@@ -2,41 +2,23 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime Introduction</title>
+    <link rel="stylesheet" href="headerStyles.css">
     <style>
-        .flex-container {         
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    flex-grow: 1;
-    }
+        .link { 
+            padding: 2%;
+            margin: 1%;
+            font-size: 100%;
+            text-align: center;
+            flex-grow: 1;
+            font-weight: bold;
+            color: gray;
+        }
 
-    .tab {
-    padding: 10px; 
-    border: 1px solid grey; 
-    text-decoration: none; 
-    color: black; 
-    background-color: white;
-    }
+        .link:hover{
+            background-color:white;
+            color: darkred;
+        }
 
-    .tab:hover { 
-    background-color: grey; 
-    color: white;
-    }
-
-    .link { 
-    padding: 2%;
-    margin: 1%;
-    font-size: 100%;
-    text-align: center;
-    flex-grow: 1;
-    font-weight: bold;
-    color: gray;
-    }
-
-    .link:hover{
-    background-color:white;
-    color: darkred;
-    }
         body {
             font-family: 'Arial', sans-serif;
             background-image: url('background_image.jpeg');
@@ -49,26 +31,8 @@
             background-attachment: fixed;
         }
 
-        header {
-            background-color: #8B4513;
-            color: white;
-            padding: 30px;
-            text-align: center;
-            font-size: 36px;
-            font-family: 'Courier New', monospace; 
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            border-bottom: 4px solid gray;
-        }
-
         .container {
-            width: 45%;
-            margin: 20px auto;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px black;
-            padding: 20px;
-            position: relative;
+             width: 45%;
         }
 
         #img1 {
@@ -105,26 +69,14 @@
         audio {
             width: 50%;
         }
-        .flex-container {
-            display: flex;
-            justify-content: center;
-        }
-        .tab {
-            padding: 10px;
-            margin: 0 10px;
-            text-decoration: none;
-            color: black;
-            background-color: #ccc;
-            border-radius: 5px;
-        }
-        .tab:hover {
-            background-color: #999;
-            color: white;
-        }
+        
     </style>
 </head>
 
 <body>
+    <header>
+        Anime Introduction
+    </header>
     <nav>
         <div class="flex-container">
             <a class="tab" href="file:///C:/Users/Sergio/OneDrive/Documents/GitHub/CPAN134-PROJECT/CPAN134%20Final%20Project/CPAN134_Project_Pg1_Sergio_Romero_n00466753.html">Anime An Artistic Frontier</a>
@@ -135,9 +87,6 @@
             <a class="tab" href="file:///C:/Users/Sergio/OneDrive/Documents/GitHub/CPAN134-PROJECT/CPAN134%20Final%20Project/eduardo/Register%20page.html">Sign Up For More Recommendation</a>
         </div>
     </nav>
-    <header>
-        Anime Introduction
-    </header>
     <div class="container">
         <img id="img1" src="anime_image.jpg" alt="Anime Image">
         <h1>How to keep a mummy</h1>

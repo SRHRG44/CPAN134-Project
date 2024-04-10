@@ -1,0 +1,46 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    padding: 10px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.tab:hover {
+    background-color: #999;
+    color: white;
+}
+
+header {
+    background-color: #8B4513;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Courier New', monospace; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 4px solid gray;
+}
+
+nav {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+    position: relative;
+}

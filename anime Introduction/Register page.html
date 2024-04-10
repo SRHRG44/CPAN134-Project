@@ -1,51 +1,19 @@
 <!DOCTYPE html>
 <head>
+    <link rel="stylesheet" href="headerStyles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             height: 100vh;
+            margin: 0;
             background-image: url("wallpaper4form.png");
         }
-
-        nav {
-            width: 100%;
-            background-color: #f0f0f0;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        .flex-container {
-            display: flex;
-            justify-content: center;
-        }
-
-        .tab {
-            padding: 10px;
-            margin: 0 10px;
-            text-decoration: none;
-            color: black;
-            background-color: #ccc;
-            border-radius: 5px;
-        }
-
-        .tab:hover {
-            background-color: #999;
-            color: white;
-        }
-
-        form {
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-            width: 600px;
-            box-sizing: border-box;
-            background-color: white;
-            margin-top: 20px;
+        
+        .container {
+             width: 30%;
         }
 
         label {
@@ -60,6 +28,7 @@
             border: 1px solid red;
             border-radius: 3px;
         }
+        
 
         button {
             background-color: purple;
@@ -73,6 +42,9 @@
     </style>
 </head>
 <body>
+    <div>
+        <header>Registration Form</header>
+    </div>
     <nav>
         <div class="flex-container">
             <a class="tab"
@@ -95,10 +67,8 @@
                 Up For More Recommendation</a>
         </div>
     </nav>
-    <br>
-    <br>
-    <form>
-        <h2 style="color: red; text-align: center;">REGISTRATION FORM</h2>
+    <form class="container">
+        
         <div style="display: flex;">
             <label for="name">First Name:</label>
             <input type="text" id="name" name="name" placeholder="Enter First Name">
