@@ -40,6 +40,7 @@
             margin-top: 10px;
         }
     </style>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <div>
@@ -67,7 +68,7 @@
                 Up For More Recommendation</a>
         </div>
     </nav>
-    <form class="container">
+    <form class="container" method="POST">
         
         <div style="display: flex;">
             <label for="name">First Name:</label>
@@ -169,6 +170,9 @@
             </select>
         </div>
 
+        <div style="justify-content: center;" class="g-recaptcha" 
+        data-sitekey="6LfIV3MpAAAAAOu7ks9gYe1LMM4jL0zyfvILEkWv"></div>
+        
         <button type="submit" style="width: 47%;"><b>Register</b></button>
         <button type="Reset" style="width: 47%;"><b>Reset</b></button>
         
