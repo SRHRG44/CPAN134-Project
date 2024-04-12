@@ -7,11 +7,13 @@
 }
 
 .tab {
-    padding: 10px; 
+    padding: 10px;
+    margin: 0 10px; 
     border: 1px solid grey; 
     text-decoration: none; 
     color: black; 
     background-color: white;
+    border-radius: 5px;
 }
 
 /* Adds hover effect  */
@@ -53,10 +55,13 @@
     background-image: url('fariytailbackgroundimg.jpeg');
     background-size:cover; 
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow:inset;
 }
 .body2 {
     background-image: url('wp5995224.jpg');
+    background-attachment:fixed;
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -72,9 +77,9 @@
 }
 .div1{
     background-color: white;
-    border-style: solid;
+    border-style: outset;
     border-width: medium;
-    border-color: grey;
+    border-color: gray;
     width: 45%; 
     margin:0 auto;
     padding:5%;
@@ -95,6 +100,7 @@
 img {
     width: 100%;
     height: auto;
+  
 }
 
 .dot {
@@ -129,13 +135,7 @@ img {
 
 .body3 {
     background-image: url('wallpaper.jpeg');
-    background-size:cover; 
-    background-position: center;
-    background-repeat:repeat; 
-}
-
-.Emailwallpaper{
-    background-image: url('wallpaper.png');
+    background-attachment: fixed;
     background-size:cover; 
     background-position: center;
     background-repeat:repeat; 
@@ -152,34 +152,3 @@ img {
    
 }
 
-
-.g-recaptcha {
-    border-style: solid;
-    height: 60px;
-    border-width: medium;
-    border-color: rgb(170, 170, 195);
-}
-.button1, .button2 {
-    background-image: linear-gradient(to right, grey ,black);
-    color: white;
-}
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="dob"],
-input[type="tel"],
-input[type="date"],
-input[type="zipcode"],
-select {
-    display: inline-block;
-
-    box-sizing: border-box;
-    border: 2px solid grey;
-    border-radius: 10px;
-    padding: 10px;
-    width: 200px;
-  
-}
-.title1 {
-    color: black
-}
