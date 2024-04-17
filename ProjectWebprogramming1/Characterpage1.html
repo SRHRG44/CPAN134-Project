@@ -24,14 +24,14 @@
         <div class="div1">
 
             <audio autoplay>
-                <source src="Fairy Tail - Opening 1 (Creditless) (HD - 60 fps).mp3" type="audio/mpeg">
+                <source id="audio-Player" src="Fairy Tail - Opening 1 (Creditless) (HD - 60 fps).mp3" type="audio/mpeg">
             </audio>
 
             <h1 style="text-align:center;">Character Profile</h1>
 
             <div class="character">
                 <h2 style="color:rgb(219, 106, 125)">Natsu</h2>
-                <img style="border: 2px solid; color: rgb(219, 106, 125)"src="Natsu.jpeg" alt="Images">
+                <img style="border: 2px solid; color: rgb(219, 106, 125)"src="images/Natsu.jpeg" alt="Images">
                     <p>
                         Natsu Dragneel, the primary male protagonist in the renowned shonen manga/anime series Fairy Tail, serves as a Fire Dragon Slayer and a member of the Fairy Tail Guild.
                         Born as the adoptive son of Igneel, the king of fire dragons, Natsu's backstory unfolds with revelations of his kinship to Zeref Dragneel and his role as the younger brother of Zeref and the uncle of August. Following his initial demise over 400 years ago, Natsu was resurrected by Zeref as Etherious Natsu Dragneel (E.N.D.), the most potent demon in existence. Moreover, Natsu was one of the five Dragon-trained Dragon Slayers sent to the future to defeat Acnologia, his arch-nemesis, for slaying Igneel.                       
@@ -46,7 +46,7 @@
         
             <div class="character">
                 <h2 style="color:yellow;">Lucy</h2>
-                <img style="border:2px solid; border-color:yellow;" src="Lucy.jpeg" alt="Images">
+                <img style="border:2px solid; border-color:yellow;" src="images/Lucy.jpeg" alt="Images">
                     <p>
                         Lucy Heartfilia, the central female protagonist of Fairy Tail, is renowned as a Celestial Spirit Mage and a core member of the Fairy Tail Guild, playing a pivotal role within Team Natsu. Hailing from a once affluent family, Lucy chose to break free from her wealthy upbringing to pursue her path as a Fairy Tail mage.
                         In the Japanese anime, Lucy's voice is portrayed by Aya Hirano, known for her role as Haruhi Suzumiya in The Melancholy of Haruhi Suzumiya, while Cherami Leigh lends her voice to the English version, also voicing Anna Heartfilia and various other notable characters.                      
@@ -62,7 +62,7 @@
             
             <div class="character">
                 <h2 style="color:skyblue">Happy</h2>
-                <img style="border: 2px solid; color:skyblue" src="Happy.webp" alt="Images">
+                <img style="border: 2px solid; color:skyblue" src="images/Happy.webp" alt="Images">
                     <p>
                         Happy, an Exceed from Extalia, is a member of the Fairy Tail Guild and part of Team Natsu. He has a small blue body with a white stomach, pink ears, and big black eyes. Happy can sprout angelic wings using Aera magic, enabling him to fly and carry objects or individuals for a limited time. His main ability, Max Speed, allows him to fly at high speeds to dodge attacks or strike opponents with powerful headbutts.
                         Despite his small size, Happy is loyal to his teammates and possesses a good understanding of the Magic world. He often emulates Natsu's actions and enjoys comic relief with his catchphrase, "Aye!" Happy loves fish and dislikes dogs, except for Plue. He holds respect for fellow Exceeds and develops a strong bond with Carla over time.
@@ -76,6 +76,16 @@
                 <a href="FaveAnimepage.html" class="tab">Go Back</a>&nbsp;
                 <a href="Characterpage2.html" class="tab">Next Page</a>
             </div>
-            </div>
-        </body>
+
+            <script>
+                window.addEventListener('Load', (event) => {
+                const audioPlayer = document.getElementById('audio-Player');
+                if (audioPlayer) {
+                    audioPlayer.play();
+                }
+            });
+            </script>
+        </div>
+            
+    </body>
 </html>

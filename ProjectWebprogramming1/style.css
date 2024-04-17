@@ -52,15 +52,16 @@
     font-weight: bold;
 }
 .body1 {
-    background-image: url('fariytailbackgroundimg.jpeg');
+    background-image: url('images/fariytailbackgroundimg.jpeg');
     background-size:cover; 
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     box-shadow:inset;
+    
 }
 .body2 {
-    background-image: url('wp5995224.jpg');
+    background-image: url('images/wp5995224.jpg');
     background-attachment:fixed;
     background-size:cover;
     background-position: center;
@@ -134,7 +135,7 @@ img {
 }
 
 .body3 {
-    background-image: url('wallpaper.jpeg');
+    background-image: url('images/wallpaper.jpeg');
     background-attachment: fixed;
     background-size:cover; 
     background-position: center;
